@@ -5,6 +5,7 @@
 # purpose
 build 9 container for hadoop cluster
 
+# usage
 ````
 # git clone https://github.com/gigsda/testlxccuster
 # sh build.sh
