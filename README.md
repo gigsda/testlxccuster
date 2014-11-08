@@ -8,5 +8,8 @@ build 9 container for hadoop cluster
 # usage
 ````
 # git clone https://github.com/gigsda/testlxccuster
-# sh build.sh
+# sh init.sh // install basic packages
+# sh create-containers.sh
+# sh start-containers.sh
+
 ````
