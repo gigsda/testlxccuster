@@ -1,10 +1,10 @@
-10.0.3.111	hadoop1
-10.0.3.112      hadoop2
-10.0.3.113      hadoop3
-10.0.3.114      hadoop4
-10.0.3.115      hadoop5
-10.0.3.116      hadoop6
-10.0.3.117      hadoop7
-10.0.3.118      hadoop8
-10.0.3.119      hadoop9
+10.0.3.111      hadoop1 hmaster01
+10.0.3.112      hadoop2 hmaster02
+10.0.3.113      hadoop3 hslave01
+10.0.3.114      hadoop4 hslave02
+10.0.3.115      hadoop5 hslave03
+10.0.3.116      hadoop6 hslave04
+10.0.3.117      hadoop7 hslave05
+10.0.3.118      hadoop8 hslave06
+10.0.3.119      hadoop9 hslave07
 
