@@ -1,5 +1,5 @@
-hadoop1
-hadoop2
-hadoop3
-hadoop4
-hadoop5
+hmaster01
+hmaster02
+hslave01
+hslave02
+hslave03

@@ -16,11 +16,6 @@ do
   lxc-attach -n $host -- service ssh reload
   echo root:$PASSWD | lxc-attach -n $host -- chpasswd
 
-#  expect -c "
-#     spawn ssh-copy-id root@$host
-#     expect \"*re you sure you want to continue connecting\" 
-#     send \"yes\\r\"
-#     expect \"*assword*\" 
-#     send \"$PASSWD\\r\"
-#  "
+ ./ssh-copy-id-expect $host root $PASSWD ~/.ssh/id_rsa.pub 
+
 done
